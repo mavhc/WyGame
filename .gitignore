@@ -281,3 +281,6 @@ _Pvt_Extensions
 
 # Python project files
 *.pyproj
+
+web.debug.config
+web.config

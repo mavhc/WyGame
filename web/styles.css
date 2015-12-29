@@ -1,0 +1,15 @@
+﻿*:hover { outline: #000000 solid 1px }
+
+body
+{
+}
+
+.board {
+    position: fixed;
+    width: 30vw;
+    height: 30vw;
+}
+
+.board tr td {
+    color:#ff0000;
+}
