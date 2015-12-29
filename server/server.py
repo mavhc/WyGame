@@ -1,4 +1,4 @@
-from http.server import BaseHTTPRequestHandler, HTTPServer
+﻿from http.server import BaseHTTPRequestHandler, HTTPServer
 import urllib.request, mimetypes
 import time, os.path
 

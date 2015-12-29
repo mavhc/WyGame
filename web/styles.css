@@ -3,15 +3,46 @@
     outline: #000000 solid 1px
 }
 
+html
+{
+}
+
 body
 {
 }
 
 .board {
-    width: 30vw;
-    height: 30vw;
+    table-layout:fixed;
 }
 
 .board tr td {
-    color:#ff0000;
+    overflow:hidden;
+    width:10vw;
+    font-size: 11.5vw;
+    vertical-align: top;
+}
+
+.board tr td .cellTextWrapper {
+    outline: none;
+    max-height: 10vw;
+    position:relative;
+    top: -3.5vw;
+    left: 0.2vw;
+}
+
+.board tr td .cellText {
+    outline: none;
+    max-height: 14vw;
+    overflow:hidden;
+}
+
+.info {
+    position: fixed;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    font-size: 20px;
+}
+
+.info .title {
+    font-size: 25px;
 }
