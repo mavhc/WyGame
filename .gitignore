@@ -278,6 +278,3 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
-
-# Python project files
-*.pyproj
