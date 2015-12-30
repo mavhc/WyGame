@@ -29,13 +29,17 @@
     <Folder Include="deployment\" />
     <Folder Include="server\" />
     <Folder Include="web\" />
+    <Folder Include="web\images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitattributes" />
     <Content Include=".gitignore" />
+    <Content Include="deployment\debian.sh" />
     <Content Include="deployment\ReadMe.txt" />
     <Content Include="README.md" />
+    <Content Include="web\images\cross.png" />
     <Content Include="web\index.html" />
+    <Content Include="web\script.js" />
     <Content Include="web\styles.css" />
   </ItemGroup>
   <ItemGroup>
