@@ -55,9 +55,9 @@ function cellClicked(div) {
     {
         var children = div.childNodes;
         [].slice.call(children).forEach(function (child) {
-                if (child.className == "crossImg") {
-                    toggleVisibility(child)
-                }
+            if (child.className == "crossImg") {
+                toggleVisibility(child)
+            }
         });
     }
     return;
