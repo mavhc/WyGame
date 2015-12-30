@@ -31,12 +31,12 @@ function enable(div) {
 
 function enabled(div) {
     var index = parseInt(div.id);
-    if (cellsState[index] > -1) {
-        return true;
+    if (cellsState[index] == -1) {
+        return false;
     }
     else 
     {
-        return false;
+        return true;
     }
 }
 
@@ -51,15 +51,15 @@ function toggleVisibility(div) {
 }
 
 function cellClicked(div) {
-    var children = div.childNodes;
-    [].slice.call(children).forEach(function (child) {
-        if (enabled(div))
-        {
-            if (child.className == "crossImg") {
-                toggleVisibility(child)
-            }
-        }
-    });
+    if (enabled(div))
+    {
+        var children = div.childNodes;
+        [].slice.call(children).forEach(function (child) {
+                if (child.className == "crossImg") {
+                    toggleVisibility(child)
+                }
+        });
+    }
     return;
 }
 
